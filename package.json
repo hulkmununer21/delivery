@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "workspaces": ["dispatch-dashboard"],
+  "scripts": {
+    "dev": "npm run dev -w dispatch-dashboard",
+    "build": "npm run build -w dispatch-dashboard",
+    "preview": "npm run preview -w dispatch-dashboard",
+    "lint": "npm run lint -w dispatch-dashboard"
+  }
+}
